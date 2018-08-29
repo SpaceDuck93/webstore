@@ -1,0 +1,122 @@
+/*
+Theme Name: enfold-child
+Description: RET Theme
+Version: 0.0.1
+Template: enfold
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: enfold-child
+*/
+/**** form styling ****/
+.mauticform-row {
+  position: relative !important;
+  margin-top: 5px;
+}
+span.mauticform-errormsg{
+  position: absolute;
+  z-index: 1;
+  top: -6px;
+  right: 0;
+  font-weight: 100;
+  font-style: italic;
+  color: #ff6060;
+  background: white;
+  font-size: 10px;
+}
+.mauticform-row label{
+  pointer-events: none;
+}
+.mauticform-label {
+  position: absolute !important;
+  left: 10px !important;
+  top: -3px !important;
+  color: #728190 !important;
+  font-weight: 500 !important;
+  transition: 0.3s !important;
+  letter-spacing: 1px !important;
+  font-size: 13px !important;
+}
+.mauticform-label.focus, .mauticform-label .has-content {
+  color: #2d75bc !important;
+}
+.mauticform-input, .mauticform-selectbox {
+  max-height: 45px !important;
+}
+.mauticform-button{
+	min-height: 45px;
+	border-radius: 6px;
+	font-size: 1.4em
+}
+.mauticform-input, .mauticform-textarea, .mauticform-selectbox {
+		background: white!important;
+  min-height: 45px !important;
+  border-radius: 5px !important;
+  border: 1px solid #e6e6e6 !important;
+  padding-left: 10px !important;
+  padding-top: 20px !important;
+  font-weight: 400 !important;
+  width: 100% !important;
+  color: #565656 !important;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.34);
+}
+label#mauticform_label_armgallleadsform_hearduson {
+  top: -11px !important;
+  background: white;
+  padding: 3px !important;
+  border-radius: 5px;
+  border-top: 1px solid #e6e6e6;
+}
+[name="mauticform[hearduson]"] {
+  height: 45px;
+  padding-top: 20px !important;
+  background: white !important;
+}
+.mauticform-textarea {
+  padding-top: 40px;
+}
+.mautic-form .btn-orange{
+  background:#FF6114!important;
+}
+.mauticform-input:focus, .mauticform-textarea:focus, .mauticform-selectbox:focus {
+  outline: none !important;
+  border-color: #74b1ec !important;
+  border-top: none;
+}
+.mauticform-input::placeholder, .mauticform-textarea::placeholder, .mauticform-selectbox::placeholder {
+  color: #cecece !important;
+}
+.mauticform-input:-webkit-autofill, .mauticform-textarea:-webkit-autofill, .mauticform-selectbox:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #e2fff2 inset !important;
+}
+.mautic-form section {
+  padding: 0;
+}
+.mautic-form p {
+  margin: 0;
+}
+.mautic-form.nocomment [name="mauticform[comments]"] {
+  display: none !important;
+}
+.mautic-form.small-form [name="mauticform[hearduson]"], .mautic-form.small-form [name="mauticform[comments]"], .mautic-form.small-form label#mauticform_label_rrcomallleadforms_hearduson {
+  display: none !important;
+}
+.mautic-form.horizontal .mauticform-page-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 840px;
+  margin: 0 auto;
+}
+.mautic-form.horizontal .mauticform-page-wrapper .mauticform-row:nth-child(1),
+.mautic-form.horizontal .mauticform-page-wrapper .mauticform-row:nth-child(3),.mautic-form.horizontal .mauticform-page-wrapper .mauticform-row:nth-child(4), .mautic-form.horizontal .mauticform-page-wrapper .mauticform-row:nth-child(5), .mautic-form.horizontal .mauticform-page-wrapper .mauticform-row:nth-child(6) {
+  flex: 0 1 50%;
+  padding: 1px;
+}
+.mautic-form.horizontal .mauticform-page-wrapper .mauticform-row:nth-child(6), .mautic-form.horizontal .mauticform-page-wrapper .mauticform-row:last-child {
+  flex: 0 1 100%;
+}
+#av-burger-menu-ul {
+  padding-top: 0!important;
+}
+#header_meta .phone-info {
+  font-size: 1.5rem;
+}
